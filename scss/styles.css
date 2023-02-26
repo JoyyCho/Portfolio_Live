@@ -665,12 +665,14 @@ footer {
   border-radius: 4px;
 }
 
-.project-image {
-  float: left;
+.project:hover {
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-.project-image img {
-  margin: auto;
+.project-image {
+  float: left;
+  margin: 0 auto;
 }
 
 .project-info {
@@ -805,7 +807,7 @@ footer {
 
 #contact-form button {
   display: block;
-  width: 100%;
+  width: 99%;
   background: #fff;
   border-radius: 4px;
   padding: 5px 10px;
@@ -992,6 +994,9 @@ footer {
   #lead-content a {
     font-size: 0.9em;
     padding: 5px 10px;
+  }
+  #contact-form button {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=styles.css.map */

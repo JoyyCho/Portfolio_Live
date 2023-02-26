@@ -1,3 +1,6 @@
 # Portfolio_Live
 
-This is a repository for portfolio.
+Name: Joy Cho
+
+This is a repository for Portfolio site.
+My Portfolio Site can view: https://joyc-dev.com/
