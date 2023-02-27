@@ -43,7 +43,7 @@
 */
 body {
   font-family: 'Maven Pro', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
   line-height: 28px;
 }
@@ -109,6 +109,7 @@ body.active {
 
 header {
   position: fixed;
+  z-index: 999 !important;
   top: 0;
   left: 0;
   right: 0;
@@ -376,7 +377,7 @@ footer .col div {
 
 #lead-content h1 {
   color: #fff;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 5em;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -385,7 +386,7 @@ footer .col div {
 
 #lead-content h2 {
   color: #0cffff;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px;
 }
@@ -831,7 +832,7 @@ footer .col div {
   padding: 5px 10px;
   border: none;
   color: #008B8B;
-  font-weight: 700;
+  font-weight: 600;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   -webkit-transition: 0.5s ease all;
