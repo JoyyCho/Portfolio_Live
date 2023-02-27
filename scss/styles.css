@@ -224,6 +224,22 @@ header.sticky {
 
 footer {
   padding: 50px 0;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+footer .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer .col div {
+  margin: 0 auto;
 }
 
 .copyright {
@@ -997,6 +1013,12 @@ footer {
   }
   #contact-form button {
     width: 100%;
+  }
+  footer .col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=styles.css.map */
