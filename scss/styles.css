@@ -42,9 +42,9 @@
     ----------------------------
 */
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  line-height: 25px;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 body.active {
@@ -166,7 +166,6 @@ header.sticky {
 }
 
 #menu {
-  z-index: 999;
   background-color: white;
 }
 
@@ -781,6 +780,7 @@ footer .col div {
 }
 
 #contact-form input, #contact-form textarea {
+  font-size: 15px;
   display: block;
   width: 95%;
   padding: 10px;
@@ -823,6 +823,7 @@ footer .col div {
 
 #contact-form button {
   display: block;
+  font-size: 15px;
   width: 99%;
   background: #fff;
   border-radius: 4px;
