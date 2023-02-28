@@ -402,6 +402,12 @@ footer {
   max-width: 1000px;
   margin: 0 auto;
 }
+#about p a {
+  color: #008B8B;
+}
+#about p a:visited {
+  color: #008B8B;
+}
 
 /*
     --------------------------------
