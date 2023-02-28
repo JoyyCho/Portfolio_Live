@@ -1,4 +1,4 @@
-/*!
+/*
     Title: Dev Portfolio Template
     Version: 1.2.2
     Last Change: 03/25/2020
@@ -10,6 +10,7 @@
     that don't come from third party libraries. This file gets compiled using
     Gulp and send to the /css folder which is then loaded on the page.
 */
+// Updated styling after getting this template
 /*
     File Contents:
 
@@ -120,13 +121,14 @@ body {
                 margin: 0 0 15px 0;
             }
 
-            p {
+            ul {
                 color: $text;
                 font-size: 0.9em;
                 margin: 0;
             }
         }
 
+        //timline
         &:before, &:after {
             content: none;
         }
@@ -260,26 +262,20 @@ footer {
     margin: 0 auto; //added
 }
 
-footer .col{
+#footer-content{
     display: flex;
     flex-direction: row;
-}
 
-footer .col div{
-    margin: 0 auto;
-}
-
-.copyright {
-    padding-top: 20px;
-
-    p {
-        margin: 0;
-        color: $text;
+    div{
+        margin: 0 auto;
     }
 }
 
-.top {
+
+
+#lead-top {
     text-align: center;
+    margin: 0 auto;
 
     span {
         cursor: pointer;
@@ -297,11 +293,20 @@ footer .col div{
     }
 }
 
+.copyright {
+    padding-top: 20px;
+
+    p {
+        margin: 0;
+        color: $text;
+    }
+}
+
 .social {
     text-align: right;
 
     ul {
-        margin: 5px 0 0 0;
+        margin: 10px 0 0 0;
         padding: 0;
     }
 
@@ -562,7 +567,7 @@ footer .col div{
         margin: 0 0 15px 0;
     }
 
-    p {
+    ul {
         color: $text;
         font-size: 0.9em;
         margin: 0;
@@ -996,11 +1001,11 @@ footer .col div{
 
     #lead-content {
         h1 {
-            font-size: 2em;
+            font-size: 2.5em;
         }
 
         h2 {
-            font-size: 1.3em;
+            font-size: 1.5em;
         }
 
         a {
@@ -1045,7 +1050,7 @@ footer .col div{
 
     #lead-content {
         h1 {
-            font-size: 2em;
+            font-size: 2.5em;
         }
 
         h2 {
@@ -1062,8 +1067,7 @@ footer .col div{
         width: 100%;
     }
 
-    footer .col{
+    #footer-content{
         flex-direction: column;
     }
-
 }
