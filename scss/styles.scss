@@ -740,6 +740,13 @@ footer {
         color: $text;
         margin: 20px; //edited
         font-size: 0.9em;
+
+        a{
+            color: $text;
+            &:visited{
+                color: $text;
+            }
+        }
     }
 }
 
