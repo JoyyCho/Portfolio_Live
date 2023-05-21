@@ -1,10 +1,9 @@
 /*!
-    Title: Dev Portfolio Template
-    Version: 1.2.2
-    Last Change: 03/25/2020
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
+    Title: Joy Portfolio
+    Version: 1.2
+    Last Change: 05/21/2023
+    Author: Joy Cho
+    Repo: https://github.com/JoyyCho/Portfolio_Live
 
     Description: This file contains all the scripts associated with the single-page
     portfolio website.
@@ -54,7 +53,7 @@
     });
 
     // Create timeline
-    $('#experience-timeline').each(function() {
+    $('#-timeline').each(function() {
 
         $this = $(this); // Store reference to this
         $userContent = $this.children('div'); // user content
